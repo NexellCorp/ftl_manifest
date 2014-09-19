@@ -11,6 +11,6 @@
   <!-- nexell_linux: prototype, u-boot, kernel -->
   <project path="prototype/pyrope" name="linux/prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
   <project path="bootloader/u-boot-2013.x" name="linux/bootloader/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="kernel/kernel-3.4.x" name="linux/kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
+  <project path="kernel/kernel-3.4.39" name="linux/kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="master" />
 
 </manifest>
