@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="nexell_linux"
-          fetch="." />
+  <remote name="nexell"
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
 
   <default revision="master"
-           remote="nexell_linux"
+           remote="nexell"
            sync-j="4" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="prototype/pyrope" name="linux/prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
-  <project path="bootloader/u-boot-2013.x" name="linux/bootloader/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
-  <project path="kernel/kernel-3.4.39" name="linux/kernel/kernel.3.4.39" groups="device" remote="nexell_linux" revision="master" />
+  <project path="prototype/pyrope" name="ftl_prototype" groups="device" remote="nexell" revision="master" />
+  <project path="bootloader/u-boot-2013.x" name="ftl_u-boot" groups="device" remote="nexell_linux" revision="master" />
+  <project path="kernel/kernel-3.4.39" name="ftl_kernel" groups="device" remote="nexell_linux" revision="master" />
 
 </manifest>
